@@ -1,8 +1,11 @@
+cmake_minimum_required(VERSION 3.5)
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+
 # Set a variable to represent the directory
 set(c cpp_utils)
 
+# I might be missing the SRCS and PRIV_REQUIRES args
 idf_component_register(
-    # I might be missing the SRCS and PRIV_REQUIRES args
     INCLUDE_DIRS "${c}"
     REQUIRES nkolban # Adjust this to the actual requirements of your component.
 )
