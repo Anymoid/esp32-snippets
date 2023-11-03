@@ -1,0 +1,8 @@
+name: "cpp_utils"
+version: "1.0"
+description: "A set of C++ utility classes for ESP-IDF."
+tags:
+  - "utilities"
+  - "cpp"
+dependencies:
+  # Dependencies here
